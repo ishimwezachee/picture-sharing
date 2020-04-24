@@ -10,6 +10,7 @@ const PlaceItem = props => {
 
   const openMapHandler = ()=> setShowMap(true);
   const closeMapHandler = ()=> setShowMap(false);
+  const mapImage ='https://www.ydesignservices.com/wp-content/uploads/2016/07/Googlemap-600x551.jpg'
   return (
   <React.Fragment>
  <Modal 
@@ -22,7 +23,7 @@ const PlaceItem = props => {
  footer = {<Button onClick={closeMapHandler}>CLOSE</Button>}
  >
 <div className="map-container">
-  <h2>THE MAP!</h2>
+<img className="map_image" src={mapImage}/>
 </div>
  </Modal>
     <li className="place-item">
