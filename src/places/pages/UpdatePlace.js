@@ -7,7 +7,7 @@ import {
     VALIDATOR_REQUIRE,
     VALIDATOR_MINLENGTH
 } from "../../shared/util/validation";
-import { userForm, useForm } from "../../shared/hooks/form-hook"
+import { useForm } from "../../shared/hooks/form-hook"
 import './PlaceForm.css';
 
 
